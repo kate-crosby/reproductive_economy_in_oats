@@ -135,8 +135,8 @@ fixation_p_1stgen<-Outputfinal[,11]
 
 #### Make a dataframe of these names
 results.df<-data.frame(cbind(Sim_No, Seed_No,final_p_freq,
-                             final_q_freq,mean_size_sim,mean_fec_sim,max_fec_sim,max_size_sim,
-                             gen_max_size_out,gen_max_fec_out,
+                             final_q_freq,mean_size_sim,mean_fec_sim,max_fec_sim,
+                             max_size_sim,gen_max_size_out,gen_max_fec_out,
                              fixation_p_1stgen))
 
 ####Print the dataframe
